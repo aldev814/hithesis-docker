@@ -1,7 +1,6 @@
 name: Docker Image CI/CD
 on:
-  push:
-    branches: [ master ]
+  workflow_dispatch
 jobs:
   # 构建并上传 Docker镜像
   build: 
