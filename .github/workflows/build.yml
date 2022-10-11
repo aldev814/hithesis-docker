@@ -14,4 +14,4 @@ jobs:
         run: docker login --username=${{ secrets.DOCKER_USERNAME }} --password ${{ secrets.DOCKER_PASSWORD }}
       - name: Push Image
         run: |
-          docker push dv3lood/simcaptcha
+          docker push dv3lood/tinytex-hithesis
