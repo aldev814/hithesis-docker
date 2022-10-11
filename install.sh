@@ -11,7 +11,6 @@ echo "Finish install TinyTeX, going to install extra dependencies..."
 
 export PATH="$HOME/bin:$PATH";
 
-tlmgr option repository http://www.ctan.org/tex-archive/systems/texlive/tlnet
 tlmgr update --self --all
 tlmgr path add
 fmtutil-sys --all
